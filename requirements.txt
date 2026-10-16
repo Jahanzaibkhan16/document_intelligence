@@ -1,0 +1,24 @@
+# Core
+python-dotenv
+
+# File readers
+pdfplumber
+PyPDF2
+python-docx
+Pillow
+
+# OCR
+pytesseract
+
+# AI (via REST API)
+requests
+
+# Web UI
+streamlit
+
+# Export
+openpyxl
+fpdf2
+
+# Data
+pandas

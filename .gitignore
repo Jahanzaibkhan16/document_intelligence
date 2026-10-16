@@ -1,0 +1,32 @@
+# Environment (API keys — NEVER upload)
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (uploads, extractions, database)
+data/uploads/*
+data/extracted/*
+data/documents.db
+!data/uploads/.gitkeep
+!data/extracted/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/config.toml
